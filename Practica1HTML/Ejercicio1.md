@@ -15,7 +15,7 @@
     con HTML?
 
     - Compatibilidad e interoperabilidad: Usar estándares abiertos para que las páginas funcionen en distintos navegadores y contextos.
-    - Semántica y separación de preocupaciones: Usar etiquetas HTML según su significado (ej. <.header>, <.article>, <.nav>) y no para presentación; la presentación debe manejarse con CSS.
+    - Semántica y separación de preocupaciones: Usar etiquetas HTML según su significado (ej. <.header>, <.article>, <. nav>) y no para presentación; la presentación debe manejarse con CSS.
     - Accesibilidad (POUR): El contenido debe ser Perceptible, Operable, Comprensible y Robusto para personas con distintas capacidades. Esto se estructura en las pautas WCAG.
     - Robustez y progresive enhancement: El contenido debería degradarse de forma razonable y funcionar aun en entornos limitados, construyendo sobre lo básico hacia más complejidad.
     - Diseño pensado para la web (Web Standards): Seguir el modelo de estándares web para asegurar mantenibilidad, rendimiento y facilidad de evolución.
