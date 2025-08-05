@@ -1,3 +1,4 @@
+```
 Analizar los siguientes segmentos de código indicando en qué sección del documento HTML
 se colocan, cuál es el efecto que producen y señalar cada uno de los elementos, etiquetas, y atributos
 (nombre y valor), aclarando si es obligatorio.
@@ -16,7 +17,7 @@ longdesc="detalles.htm" />
 <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8"
 rel="help">Resumen HTML </a>
 
-2) 
+2)
 a)
       Ubicación: En cualquier parte del documento HTML.
       Efecto: Es un comentario, no se muestra en el navegador ni tiene efecto visual o funcional. Sirve para dejar notas para desarrolladores.
@@ -29,7 +30,7 @@ a)
 
         Obligatorio: No es obligatorio, es opcional y no afecta el documento.
 
-b)  
+b)
  Ubicación: Dentro del <body>, ya que es contenido visible.
 Efecto: Define un bloque contenedor con id="bloque1", puede usarse para aplicar estilo o manipular con JavaScript.
 
@@ -122,3 +123,4 @@ Efecto: Crea un hipervínculo a la URL especificada, indicando que el destino es
             charset="utf-8" → Indica la codificación del destino (opcional, no recomendado en HTML5).
 
             rel="help" → Relación del destino con el documento actual; help sugiere que el enlace lleva a ayuda.
+```
