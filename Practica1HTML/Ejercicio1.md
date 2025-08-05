@@ -2,6 +2,7 @@
 
    HTML (HyperText Markup Language) es el lenguaje de marcado estándar para estructurar y presentar contenido en la web. Define la semántica y estructura de páginas web.
    Fue especificado por primera vez por Tim Berners-Lee en 1990 y la primera descripción pública (“HTML Tags”) apareció a fines de 1991; la versión formal inicial se remonta a 1993.
+
    Las versiones que existieron de html son:
 
    - HTML 2.0 (1995) – primera especificación amplia estandarizada.
