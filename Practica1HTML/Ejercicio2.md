@@ -3,7 +3,6 @@ Analizar los siguientes segmentos de código indicando en qué sección del docu
 se colocan, cuál es el efecto que producen y señalar cada uno de los elementos, etiquetas, y atributos
 (nombre y valor), aclarando si es obligatorio.
 2.a)
-
 <!-- Código controlado el día 12/08/2009 →
 2.b)
 <div id="bloque1">Contenido del bloque1</div>
@@ -144,4 +143,56 @@ Efecto: Crea un hipervínculo a la URL especificada, indicando que el destino es
             charset="utf-8" → Indica la codificación del destino (opcional, no recomendado en HTML5).
 
             rel="help" → Relación del destino con el documento actual; help sugiere que el enlace lleva a ayuda.
+
+f)
+
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+  <caption align="top"> Título </caption>
+  <tr>
+    <th scope="col">&nbsp;</th>
+    <th scope="col">A</th>
+    <th scope="col">B</th>
+    <th scope="col">C</th>
+  </tr>
+  <tr>
+    <th scope="row">1º</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">2º</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+Ubicacion: Se ubica dentro del <body>, ya que representa una tabla visible en la página.
+Efecto: Muestra una tabla de 3 columnas (A, B, C) y 2 filas de datos (1º, 2º), con un título arriba.
+Tiene un ancho de 200px y usa espacios (&nbsp;) para que las celdas no estén vacías.
+Elementos y atributos:
+  <table> → tabla de datos.
+
+  width="200" → ancho en píxeles (❗obsoleto en HTML5, usar CSS).
+
+  summary="..." → descripción para lectores de pantalla (deprecated).
+
+  <caption> → título de la tabla.
+
+  align="top" → posición (❗obsoleto, usar CSS).
+
+  <tr> → fila.
+
+  <th> → celda de encabezado.
+
+  scope="col" / scope="row" → define a qué se refiere el encabezado (columna o fila).
+
+  <td> → celda de datos.
+
+  &nbsp; → espacio en blanco no separable.
+
+
+
+
 ```
