@@ -15,7 +15,7 @@
     con HTML?
 
     - Compatibilidad e interoperabilidad: Usar estándares abiertos para que las páginas funcionen en distintos navegadores y contextos.
-    - Semántica y separación de preocupaciones: Usar etiquetas HTML según su significado (ej. <header>, <article>, <nav>) y no para presentación; la presentación debe manejarse con CSS.
+    - Semántica y separación de preocupaciones: Usar etiquetas HTML según su significado (ej. <.header>, <.article>, <.nav>) y no para presentación; la presentación debe manejarse con CSS.
     - Accesibilidad (POUR): El contenido debe ser Perceptible, Operable, Comprensible y Robusto para personas con distintas capacidades. Esto se estructura en las pautas WCAG.
     - Robustez y progresive enhancement: El contenido debería degradarse de forma razonable y funcionar aun en entornos limitados, construyendo sobre lo básico hacia más complejidad.
     - Diseño pensado para la web (Web Standards): Seguir el modelo de estándares web para asegurar mantenibilidad, rendimiento y facilidad de evolución.
@@ -24,9 +24,9 @@
 3.  En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y
     obsoleto?
 
-    Desaprobado (deprecated): Significa que el elemento/atributo aún puede funcionar, pero no se recomienda su uso porque será eliminado en el futuro y existe una alternativa mejor. Ejemplo: <font>.
+    Desaprobado (deprecated): Significa que el elemento/atributo aún puede funcionar, pero no se recomienda su uso porque será eliminado en el futuro y existe una alternativa mejor. Ejemplo: <.font>.
 
-    Obsoleto (obsolete): Ya no se debe usar y puede que no sea soportado por los navegadores. Ejemplo: <blink> o <marquee>
+    Obsoleto (obsolete): Ya no se debe usar y puede que no sea soportado por los navegadores. Ejemplo: <.blink> o <.marquee>
 
 4.  Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
 
@@ -42,14 +42,14 @@
 
     Los metadatos son “datos sobre los datos”: información que describe características del documento HTML (por ejemplo: codificación de caracteres, descripción, autor, instrucciones para el navegador, configuración de viewport, etc.). No se muestran directamente en el cuerpo de la página pero son consumidos por navegadores, motores de búsqueda, redes sociales y otras herramientas.
 
-    Van dentro del elemento <head>. Los principales mecanismos son:
+    Van dentro del elemento <.head>. Los principales mecanismos son:
 
     - <title>: título del documento (metadata esencial para SEO y pestañas).
-    - '<meta>': define metadatos diversos, por ejemplo:
-      - Codificación: <meta charset="UTF-8">
-      - Viewport para móviles: <meta name="viewport" content="width=device-width, initial-scale=1">
-      - Descripción: <meta name="description" content="Resumen de la página">
-      - Instrucciones simulando cabeceras HTTP: <meta http-equiv="refresh" content="30">
-    - <link>: relación con recursos externos (ej. favicon, hojas de estilo, prefetch).
-    - <base>: base URL para enlaces relativos.
-    - Otros: <style>, <script> también se consideran parte del conjunto de metadatos en ciertos sentidos estructurales.
+    - <'meta>: define metadatos diversos, por ejemplo:
+      - Codificación: <.meta charset="UTF-8">
+      - Viewport para móviles: <.meta name="viewport" content="width=device-width, initial-scale=1">
+      - Descripción: <.meta name="description" content="Resumen de la página">
+      - Instrucciones simulando cabeceras HTTP: <.meta http-equiv="refresh" content="30">
+    - <.link>: relación con recursos externos (ej. favicon, hojas de estilo, prefetch).
+    - <.base>: base URL para enlaces relativos.
+    - Otros: <.style>, <.script> también se consideran parte del conjunto de metadatos en ciertos sentidos estructurales.
