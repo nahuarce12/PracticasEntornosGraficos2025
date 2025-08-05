@@ -19,6 +19,10 @@ rel="help">Resumen HTML </a>
 
 2)
 a)
+
+<!-- Código controlado el día 12/08/2009 -->
+
+
       Ubicación: En cualquier parte del documento HTML.
       Efecto: Es un comentario, no se muestra en el navegador ni tiene efecto visual o funcional. Sirve para dejar notas para desarrolladores.
 
@@ -31,6 +35,10 @@ a)
         Obligatorio: No es obligatorio, es opcional y no afecta el documento.
 
 b)
+
+<div id="bloque1">Contenido del bloque1</div>
+
+
  Ubicación: Dentro del <body>, ya que es contenido visible.
 Efecto: Define un bloque contenedor con id="bloque1", puede usarse para aplicar estilo o manipular con JavaScript.
 
@@ -49,6 +57,11 @@ Efecto: Define un bloque contenedor con id="bloque1", puede usarse para aplicar 
           Obligatorio: El id no es obligatorio. La etiqueta <div> sí debe cerrarse.
 
 c)
+
+<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32"
+longdesc="detalles.htm" />
+
+
 Ubicación: Dentro del <body>, ya que representa una imagen.
 Efecto: Muestra una imagen (aunque no se ve si src está vacío), con dimensiones 32x32 y atributos de accesibilidad.
 
@@ -73,6 +86,10 @@ Efecto: Muestra una imagen (aunque no se ve si src está vacío), con dimensione
             longdesc="detalles.htm" → URL con una descripción larga. Fue parte de HTML4, pero es obsoleto en HTML5. No obligatorio.
 
 d)
+
+<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
 Ubicación: Dentro de la sección <head>.
 Efecto:
 
@@ -105,6 +122,10 @@ Efecto:
               content="16-Sep-2019 7:49 PM" → fecha de expiración del documento.
 
 e)
+
+<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8"
+rel="help">Resumen HTML </a>
+
 Ubicación: Dentro del <body>, ya que es un enlace visible.
 Efecto: Crea un hipervínculo a la URL especificada, indicando que el destino está en español, es de tipo HTML, en codificación UTF-8 y que el enlace es una ayuda.
 
