@@ -45,7 +45,7 @@
     Van dentro del elemento <head>. Los principales mecanismos son:
 
     - <title>: título del documento (metadata esencial para SEO y pestañas).
-    - <meta>: define metadatos diversos, por ejemplo:
+    - '<meta>': define metadatos diversos, por ejemplo:
       - Codificación: <meta charset="UTF-8">
       - Viewport para móviles: <meta name="viewport" content="width=device-width, initial-scale=1">
       - Descripción: <meta name="description" content="Resumen de la página">
