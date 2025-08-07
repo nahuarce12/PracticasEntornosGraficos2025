@@ -1,1 +1,82 @@
+3)
+  a)
+    <a href="http://www.google.com.ar">Click aquí para ir a Google</a> - Abre Google en la misma ventana/pestaña.
+    <a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a> - Abre Google en una nueva ventana/pestaña.
+    <a href="http://www.google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help"> - type="text/html": Especifica el tipo MIME del enlace
+      hreflang="es": Indica que el contenido está en español
+      charset="utf-8": Define la codificación de caracteres
+      rel="help": Indica que es un enlace de ayuda 
+    <a href="#">Click aquí para ir a Google</a> - No navega a ningún sitio, solo recarga la página actual.
+    <a href="#arriba">Click aquí para volver arriba</a> - Navega al elemento con id="arriba" en la misma página.
+    <a name="arriba" id="arriba"></a> - Define un punto de anclaje en la página.
+  
+  b) 
+    <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p> - Imagen seguida de un enlace de texto. Solo el texto es clickeable.
+    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p> - Solo la imagen es clickeable, el texto "Click aquí" no es un enlace.
+    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p> - Tanto la imagen como el texto son clickeables (un solo enlace).
+    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a href="http://www.google.com.ar">Click aquí</a></p> - Dos enlaces separados que van al mismo destino: uno para la imagen y otro para el texto.
 
+  c)
+    <ul>
+      <li>xxx</li>
+      <li>yyy</li>
+      <li>zzz</li>
+    </ul>     
+
+    Lista no ordenada basica con Viñetas simples (•)
+
+    <ol>
+      <li>xxx</li>
+      <li>yyy</li>
+      <li>zzz</li>
+    </ol>
+
+    Lista anidada con Numeración automática (1, 2, 3)
+
+    <ol>
+      <li>xxx</li>
+      <ol>
+        <li value="2">yyy</li>
+      </ol>
+      <ol>
+        <li value="3">zzz</li>
+      </ol>
+    </ol>
+
+    Listas anidadas con numeración específica usando value.
+
+    <blockquote>
+      <p>1. xxx<br />
+      2. yyy<br />
+      3. zzz</p>
+    </blockquote>
+
+    Texto indentado como cita, no es una lista real.
+
+  d)
+    <table border="1" width="300">
+      <tr>
+        <th>Columna 1</th>
+        <th>Columna 2</th>
+      </tr>
+      <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+      </tr>
+      <!-- más filas -->
+    </table>
+
+    Estructura básica de tabla
+
+    <table border="1" width="300">
+      <tr>
+        <td><div align="center"><strong>Columna 1</strong></div></td>
+        <td><div align="center"><strong>Columna 2</strong></div></td>
+      </tr>
+      <!-- más filas -->
+    </table>
+
+    Tabla con formato mas avanzado
+    Diferencias:  Usa <div align="center"> para centrar contenido
+                  Usa <strong> para texto en negrita
+                  No usa <th> para encabezados
