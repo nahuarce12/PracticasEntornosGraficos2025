@@ -79,6 +79,8 @@
     </table>
 
     Tabla con formato mas avanzado
+
+
     Diferencias:  Usa <div align="center"> para centrar contenido
                   Usa <strong> para texto en negrita
                   No usa <th> para encabezados
