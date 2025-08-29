@@ -1,0 +1,27 @@
+  .blk {
+    min-height: 90px;
+  }
+
+  .blk-header {
+    background: #9b76a2;
+    min-height: 110px;
+  }
+
+  .blk-sidebar {
+    background: #f4d7cf;
+    min-height: 458px;;
+  }
+
+  .blk-green {
+    background: #68c280;
+  }
+
+  .blk-card {
+    background: #91848f;
+  }
+
+  .blk-blue {
+    background: #7ea1d6;
+    min-height: 140px;
+  }
+
