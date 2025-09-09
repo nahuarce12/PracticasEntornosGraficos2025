@@ -24,9 +24,9 @@ class ContactoConfig
   // Configuración del servidor SMTP
   public const SMTP_HOST = 'smtp.gmail.com';
   public const SMTP_PORT = 587;
-  public const SMTP_USERNAME = 'holariotnahuel@gmail.com'; // Cambiar por tu email
-  public const SMTP_PASSWORD = 'dvpt zbep axpa vgsm'; // Cambiar por tu contraseña de aplicación
-  public const WEBMASTER_EMAIL = 'e.diegogimenez@gmail.com'; // Email del webmaster
+  public const SMTP_USERNAME = 'email@gmail.com'; // Cambiar por tu email
+  public const SMTP_PASSWORD = 'contraseña_aplicacion'; // Cambiar por tu contraseña de aplicación
+  public const WEBMASTER_EMAIL = 'webmaster@gmail.com'; // Email del webmaster
   public const WEBMASTER_NAME = 'Webmaster';
 }
 

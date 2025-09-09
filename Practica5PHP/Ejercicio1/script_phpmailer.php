@@ -31,11 +31,11 @@ class EmailConfig
   public const SMTP_SECURE = PHPMailer::ENCRYPTION_STARTTLS;
 
   // TUS CREDENCIALES - ¡CAMBIAR AQUÍ!
-  public const SMTP_USERNAME = 'holariotnahuel@gmail.com'; // Tu email de Gmail
-  public const SMTP_PASSWORD = 'dvpt zbep axpa vgsm'; // Contraseña de aplicación (16 caracteres)
+  public const SMTP_USERNAME = 'email@gmail.com'; // Tu email de Gmail
+  public const SMTP_PASSWORD = 'contraseña_aplicacion'; // Contraseña de aplicación (16 caracteres)
 
   // Configuración del remitente
-  public const FROM_EMAIL = 'holariotnahuel@gmail.com'; // Mismo que SMTP_USERNAME
+  public const FROM_EMAIL = 'email@gmail.com'; // Mismo que SMTP_USERNAME
   public const FROM_NAME = 'Sistema de Notificaciones';
 
   // Email de prueba

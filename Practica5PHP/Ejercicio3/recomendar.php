@@ -24,9 +24,9 @@ class RecomendacionConfig
   // Configuración del servidor SMTP
   public const SMTP_HOST = 'smtp.gmail.com';
   public const SMTP_PORT = 587;
-  public const SMTP_USERNAME = 'holariotnahuel@gmail.com'; // Cambiar por tu email
-  public const SMTP_PASSWORD = 'dvpt zbep axpa vgsm'; // Cambiar por tu contraseña de aplicación
-  public const SITIO_NOMBRE = 'NAHUTILUS & ASSOCIATIONS';
+  public const SMTP_USERNAME = 'email@gmail.com'; // Cambiar por tu email
+  public const SMTP_PASSWORD = 'contraseñaDeAplicacion'; // Cambiar por tu contraseña de aplicación
+  public const SITIO_NOMBRE = 'Sitio web';
   public const SITIO_URL = 'http://google.com'; // Cambiar por la URL real del sitio
   public const SITIO_DESCRIPCION = 'Un sitio web increíble con funcionalidades avanzadas y diseño profesional.';
 }
@@ -286,7 +286,7 @@ $formulario->procesarFormulario();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recomienda a un Amigo - NAHUTILUS & ASSOCIATIONS</title>
+  <title>Recomienda a un Amigo - Sitio Web</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <style>
